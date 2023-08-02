@@ -6,33 +6,33 @@ public class Main {
 // Создание объектов класса Laptop
         Laptop hp_pailion_g6 = new Laptop("hp_pailion_g6", 16, "4k", 
         true, 500, "16", "Windows", "black"); 
-        Brand brandHp = new Brand("HP", "U.S.A.", "AmericaLanguage");
+        Brand brandHp = new Brand("HP", "U.S.A.", "English");
         hp_pailion_g6.addBrand(brandHp); 
         Laptop hp_galaxy_x64 = new Laptop("hp_galaxy_x64", 14, "FullHD", 
         true, 500, "8", "Windows", "white");
         hp_galaxy_x64.addBrand(brandHp);
         Laptop samsung_a52 = new Laptop("samsung_a52", 18, "FullHD", 
         true, 300, "8", "Windows", "black");
-        Brand brandSamsung = new Brand("Samsung", "Korea", "KoreaLanguage");
+        Brand brandSamsung = new Brand("Samsung", "Korea", "Korean");
         samsung_a52.addBrand(brandSamsung);
         Laptop samsung_m31s = new Laptop("samsung_m31s", 16, "4k", 
         false, 1000, "16", "Linux", "black");
         samsung_m31s.addBrand(brandSamsung);
         Laptop lenovo_gtx76 = new Laptop("lenovo_gtx76", 16, "FullHD", 
         true, 700, "8", "Windows", "white");
-        Brand brandLenovo = new Brand("Lenovo", "China", "ChinaLanguage");
+        Brand brandLenovo = new Brand("Lenovo", "China", "China");
         lenovo_gtx76.addBrand(brandLenovo);
         Laptop macbook_14pro = new Laptop("macbook_14pro", 17, "4k", 
         false, 1000, "8", "ios", "white");
-        Brand brandMacbook = new Brand("Apple", "U.S.A.", "AmericaLanguage");
+        Brand brandMacbook = new Brand("Apple", "U.S.A.", "English");
         macbook_14pro.addBrand(brandMacbook);
         Laptop asus_x515 = new Laptop("asus_x515", 17, "FullHD", 
         true, 300, "4", "Windows", "black");
-        Brand brandAsus = new Brand("Asus", "taiwan", "ChinaLanguage");
+        Brand brandAsus = new Brand("Asus", "taiwan", "China");
         asus_x515.addBrand(brandAsus);
         Laptop acer_air5 = new Laptop("acer_air5", 19, "FullHD", 
         true, 600, "8", "Windows", "black");
-        Brand brandAcer = new Brand("Acer", "taiwan", "ChinaLanguage");
+        Brand brandAcer = new Brand("Acer", "taiwan", "China");
         acer_air5.addBrand(brandAcer);
         Laptop acer_air6 = new Laptop("acer_air6" ,18, "4k", 
         false, 500, "16", "Windows", "black");
